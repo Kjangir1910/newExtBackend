@@ -10,9 +10,14 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^1.7.7",
+     "backend": "file:",
+    "cors": "^2.8.5",
     "cheerio": "^1.0.0",
     "express": "^4.21.2",
+    "puppeteer": "^23.10.4",
     "hunspell-spellchecker": "^1.0.2",
+    "spellchecker": "^3.7.1",
     "node-fetch": "^3.3.2"
   }
 }
