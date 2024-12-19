@@ -95,12 +95,13 @@ app.post('/check-links', async (req, res) => {
     );
 
     res.json({
-      metadata: {
+  
+      linkStatuses,
+          metadata: {
         title: title || 'No title found',
         description: description || 'No description found',
       },
-      linkStatuses,
-      spellingErrors,
+      spellingErrors
     });
   } catch (error) {
     console.error('Error:', error.message);
